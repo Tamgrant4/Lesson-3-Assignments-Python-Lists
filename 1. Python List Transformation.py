@@ -1,4 +1,4 @@
-Q1 Task 1
+# Q1 Task 1
 
 grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
 
@@ -8,7 +8,7 @@ grades.sort(reverse=True)
 # Print the sorted grades
 print(grades)
 
-Task 2
+#Task 2
 
 grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
 
@@ -18,11 +18,10 @@ grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
 # Calculate the average grade
 total_grades = sum(grades)
 average_grade = total_grades / len(grades)
-
 # Print the average grade
 print(f"The average grade is: {average_grade:.2f}")
 
-Task 3
+#Task 3
 
 grades = [85, 90, 78, 88, 76, 95, 89, 80, 72, 93]
 
@@ -46,7 +45,7 @@ print("\nGrades after replacing:")
 for grade in grades:
   print(grade)
 
-  Q2 Task 1
+  # Q2 Task 1
 
   submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
@@ -59,7 +58,7 @@ print("Students who attended the class and submitted assignments:")
 for name in present_in_both:
   print(name)
 
-  Task 2
+  #Task 2
 
   submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
@@ -72,7 +71,7 @@ if is_identical:
 else:
   print("The two lists are not identical in terms of content.")
 
-Task 3
+#Task 3
 
 submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
@@ -82,7 +81,7 @@ attended = [student for student in attended if student in submitted]
 
 print("Students who attended and submitted assignments:", attended)
 
-Q3 Task 1
+# Q3 Task 1
 
 temperatures = [72, 75, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106]
 
@@ -94,7 +93,7 @@ second_week_temperatures = temperatures[second_week_start_index:second_week_star
 
 print("Temperatures for the second week:", second_week_temperatures)
 
-Task 2
+#Task 2
 
 temperatures = [72, 75, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106]
 
@@ -103,7 +102,7 @@ high_temperatures = [temp for temp in temperatures if temp > 100]
 
 print("Temperatures above 100:", high_temperatures)
 
-Task 3
+#Task 3
 
 temperatures = [72, 75, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106]
 
@@ -116,7 +115,7 @@ fifth_to_tenth_day_temperatures = reversed_temperatures[4:10]
 
 print("Temperatures from the 5th to 10th day (reversed list):", fifth_to_tenth_day_temperatures)
 
-Q4 Task 1
+# Q4 Task 1
 
 students = ["John", "Doe", "Jane", "Smith"]
 grades = [85, 90, 78, 88]
@@ -131,7 +130,7 @@ passed_students_activities = [activity for activity in activities if grades[acti
 for i in range(len(passed_students)):
   print(passed_students[i], passed_students_grades[i], passed_students_activities[i])
 
-Task 2
+#Task 2
 
 students = ["John", "Doe", "Jane", "Smith"]
 grades = [85, 90, 78, 88]
@@ -143,7 +142,7 @@ students_approved = [student for student, grade in zip(students, grades) if grad
 # Print the list of approved students
 print("Students who passed (approved):", students_approved)
 
-Task 3
+#Task 3
 
 students = ["John", "Doe", "Jane", "Smith"]
 grades = [85, 90, 78, 88]
